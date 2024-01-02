@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #005555;
+
+    --primary-text-color: #1D2433;
+    --secondary-text-color: #4A505C;
+
+    --btn-primary: #005555; 
+
+    --font-size-title: 32px;
+    --font-size-sub-title: 16px;
+    --font-size-paragraph: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mobile {
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: -45px;
+}
+
+.login-banner {
+    background-color: var(--secondary-color);
+    height: 100%;
+    padding: 2rem 0;
+}
+
+.login-banner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-login-title h3 {
+    font-size: var(--font-size-title);
+    color: var(--primary-text-color);
+}
+
+.card-login-title p {
+    font-size: var(--font-size-sub-title);
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.login-form label {
+    font-size: var(--font-size-paragraph);
+    color: var(--secondary-text-color);
+    font-weight: 600;
+}
+
+.login-form input::placeholder {
+    font-size: var(--font-size-sub-title);
+}
+
+.button-login {
+    background-color: var(--btn-primary);
+    border: none;
+    padding: 7px;
+    width: 100%;
+    color: var(--primary-color);
+    box-shadow: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+    border-radius: 4px;
+}
+
+.button-login-google {
+    border: none;
+    padding: 7px;
+    width: 100%;
+    color: var(--primary-color);
+    box-shadow: 0px 4px 8px -4px rgba(58, 53, 65, 0.42);
+    border-radius: 4px;
+}
+
+.quest-text p, .quest-text a {
+    color: var(--secondary-color);
+}
+
+.quest-text a {
+    font-weight: 600;
+}
+
+.text-or {
+    color: var(--secondary-text-color);
+}
+
+.fa-eye{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.card {
+    width: 60%;
+}
+
+@media (min-width: 991px) {
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        width: 100%;
+    }   
+
+    .fa-eye {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fa-eye {
+        top: 48%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1143px) {
+    .fa-eye {
+        top: 47.6%;
+    }
+}

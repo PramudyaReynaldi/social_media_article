@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/login.css">
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-content">
+                <div class="row">
+                    <div class="col-lg-6 col-12 d-lg-block d-none">
+                        <div class="login-banner">
+                            <div class="login-banner-wrapper">
+                                <img src="public/assets/images/logo_banner.png" alt="Logo Banner">
+                                <div class="login-banner-vector mt-5">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="public/assets/images/vector.png" alt="">
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-3">
+                                            <img src="public/assets/images/vector2.png" alt="">
+                                            <div class="d-flex justify-content-center mt-3">
+                                                <img src="public/assets/images/vector3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="public/assets/images/vector2.png" alt="">
+                                            <div class="d-flex justify-content-center mt-3">
+                                                <img src="public/assets/images/vector3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="public/assets/images/vector2.png" alt="">
+                                            <div class="d-flex justify-content-center mt-3">
+                                                <img src="public/assets/images/vector3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="public/assets/images/vector2.png" alt="">
+                                            <div class="d-flex justify-content-center mt-3">
+                                                <img src="public/assets/images/vector3.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="login-banner-image py-5">
+                                    <img src="public/assets/images/banner_image.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="logo-mobile d-lg-none d-flex">
+                            <img src="public/assets/images/logo_mobile.png" alt="Logo">
+                        </div>
+                        <div class="login-form">
+                            <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                                <div class="card-body">
+                                    <div class="card-login-title text-center mb-3">
+                                        <h3 class="fw-bold">Register</h3>
+                                        <p>Selamat datang!</p>
+                                    </div>
+
+                                    <form>
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="usernameRegister">Nama</label>
+                                            <input type="email" id="usernameRegister" class="form-control form-control-lg" placeholder="Masukan Nama" />
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="emailRegister">Email</label>
+                                            <input type="email" id="emailRegister" class="form-control form-control-lg" placeholder="Masukan Email" />
+                                        </div>
+                          
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" pla for="passwordRegister">Password</label>
+                                            <input type="password" placeholder="Masukan Kata Sandi" id="passwordRegister" class="form-control form-control-lg" />
+                                            <i class="fa-solid fa-eye" id="eye"></i>
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" pla for="confPasswordRegister">Confirm Password</label>
+                                            <input type="password" placeholder="Konfirmasi Kata Sandi" id="confPasswordRegister" class="form-control form-control-lg" />
+                                            <i class="fa-solid fa-eye" id="eye"></i>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between align-items-center mt-3 quest-text">
+                                            <p>Sudah punya akun? 
+                                                <a href="/login.html"" class="text-decoration-none">Login</a>
+                                            </p>
+                                        </div>
+                            
+                                        <button class="button-login" type="submit" onclick="register()">Register</button>
+                                    </form>
+
+                                    <p class="my-4 text-center text-or">atau</p>
+                            
+                                    <button class="button-login-google" style="background-color: #dd4b39;"
+                                        type="submit"><i class="fa-brands fa-google me-2"></i> Login dengan Google
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="public/js/auth.js"></script>
+        <script src="https://kit.fontawesome.com/aef74effcf.js" crossorigin="anonymous"></script>
+    </body>
+</html>
