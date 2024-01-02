@@ -1,5 +1,7 @@
 # Mission 1: Landing Page Challenge (Social Media Article)
 
+![App Screenshot](https://i.ibb.co/CBNCvdG/Description.png)
+
 ## Overview
 Sebagai bagian dari Misi 1 dari bootcamp Harisenin.com, saya mengambil tantangan untuk membuat Halaman Awal yang dinamis dan menarik secara visual. Tugas ini melibatkan implementasi HTML, CSS, dan JS untuk membuat situs web berisi 2-3 halaman yang berfungsi sebagai titik masuk menarik bagi pengguna.
 
@@ -10,8 +12,16 @@ Sebagai bagian dari Misi 1 dari bootcamp Harisenin.com, saya mengambil tantangan
 
 ## Pages
 1. **Login Page:** Mendesain halaman login yang hanya menggunakan local storage.
+   
+   ![App Screenshot](https://i.ibb.co/pLwTJpb/1-1-Login.png)
+   
 2. **Register Page:** Membuat halaman pendaftaran yang menyimpan data di local storage.
+
+   ![App Screenshot](https://i.ibb.co/hR1Dr5G/127-0-0-1-5500-register-html.png)
+
 3. **Article Page:** Mengembangkan halaman untuk menampilkan artikel, memberikan platform eksplorasi konten.
+
+   ![App Screenshot](https://i.ibb.co/VqYzQ7N/1-3-Landing-Page-Sudah-Login.png)
 
 ## Technologies Used
 - HTML5
