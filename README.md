@@ -11,11 +11,11 @@ Sebagai bagian dari Misi 1 dari bootcamp Harisenin.com, saya mengambil tantangan
 - **Interactive Elements:** Mengintegrasikan JavaScript untuk menambahkan elemen interaktif, memastikan pengalaman pengguna yang dinamis.
 
 ## Pages
-1. **Login Page:** Mendesain halaman login yang hanya menggunakan local storage.
+1. **Login Page:** Mendesain halaman login dan mambuat validasi dengan local storage.
    
    ![App Screenshot](https://i.ibb.co/pLwTJpb/1-1-Login.png)
    
-2. **Register Page:** Membuat halaman pendaftaran yang menyimpan data di local storage.
+2. **Register Page:** Membuat halaman pendaftaran dan membuat validasi yang menyimpan data di local storage.
 
    ![App Screenshot](https://i.ibb.co/hR1Dr5G/127-0-0-1-5500-register-html.png)
 
